@@ -22,7 +22,7 @@
 .img3{
   animation-name: fade;
   animation-duration: 1s;
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/logo/cheers.jpg)
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/logo/sf.jpg)
               center top / cover 
               no-repeat 
               fixed 
