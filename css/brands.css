@@ -1,0 +1,50 @@
+.brand-quote{
+	text-align: center;
+	padding-top: 80px;
+  padding-bottom: 25px;
+  font-size: 20px;
+}
+
+main{
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+
+.gal {
+  border-radius: 25px;
+  width: 100%;
+  /*border: 2px solid red;*/
+  object-fit: contain;
+  height: 125px;
+}
+
+.gal1{
+ transform: scale(1.3, 1.3);
+}
+
+@media screen and (min-width: 320px){
+    main{
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        grid-gap: 1em;
+    }
+}
+
+@media screen and (min-width: 610px){
+    main{
+        grid-template-columns: repeat(2, 1fr);
+        width: 70%;
+        grid-gap: 1em;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        width: 60%;
+    }
+}

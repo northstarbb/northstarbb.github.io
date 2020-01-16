@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>North Star Brand Builders</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="North Star Brand Builders | Brand Strategy | Innovation | Research">
+  <meta name="author" content="Jeffrey Hui">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/landing.css">
+  <link rel="stylesheet" href="css/divider.css">
+  <link rel="stylesheet" href="css/service.css">
+  <link rel="stylesheet" href="css/work.css">
+  <link rel="stylesheet" href="css/brands.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+<div><button onclick="toTop()" id="to-top">Go Top</button></div>
+<div id="home"></div>
+
+<!-- Nav Begin -->
+<nav class="nav-wrap">
+  <span class="nav-hamburger" id="js-navbar-toggle">
+    <i class="fas fa-bars"></i>
+  </span>
+
+  <div class="logo-title-wrap">
+    <img class="logo" width="49" height="47" src="img/logo/star.png" alt="star logo">
+    <li>
+        <span class="nsbb"><a class="anchor-color" href="#home">North Star Brand Builders</a></span> 
+    </li>
+  </div>
+
+  <ul class="content-nav" id="js-menu">
+    <li><a href="#home" class="nav-links">Home</a></li>
+    <li><a href="#service" class="nav-links">Services</a></li>
+    <li><a href="#work" class="nav-links">Work</a></li>
+    <li><a href="#about" class="nav-links">About</a></li>
+    <li><a href="#contact" class="nav-links">Contact</a></li>
+  </ul>
+</nav>
+<!-- Nav End -->
+<!-- Landing Begin -->
+<div class="mySlides img1">
+  <div class="title-container">
+    <span id="titleX">Helping Brands Find Their North Star</span>
+    <a href="#service"><button class="subtitle">Explore Our Services</button></a>
+  </div>
+</div>
+<div class="mySlides img2">
+  <div class="title-container">
+    <span class="title">Building Businesses Consumers Love</span>
+    <a href="#work"><button class="subtitle">View Our Work</button></a>
+  </div>
+</div>
+<div class="mySlides img3">
+  <div class="title-container">
+    <span class="title override">Your Success Is Our Success</span>
+    <a href="#service"><button class="subtitle">Let's Get Started</button></a>
+  </div>
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+<!-- Landing End -->
+
+<div id="service" class="anchor"></div>
+<div class="divide"><h2>Services</h2></div>
+
+<div class="service-wrap">      
+    <div class="flip-card">
+        <div class="front red">
+            <img class="service-icon" src="img/icons/contract.png" alt="Icon made by Good Ware from www.flaticon.com">
+            <div class="first-tag">Discovery</div>
+            <div class="re">
+                <div class="second-tag">Macro Trends</div>
+                <div class="second-tag">Category Insights</div>
+                <div class="second-tag">Competitive Analysis</div>
+                <div class="second-tag">Industry Benchmarking</div>
+            </div>
+        </div> 
+    </div>
+    <div class="flip-card">
+        <div class="front orange">
+            <img class="service-icon" src="img/icons/lightbulb.png" alt="Icon made by Good Ware from www.flaticon.com">
+            <div class="first-tag">Insights</div>
+            <div class="re">
+                <div class="second-tag">Target Consumer</div>
+                <div class="second-tag">Ethnographies</div>
+                <div class="second-tag">Focus Groups</div>
+                <div class="second-tag">Quantitative Research</div>
+            </div>
+        </div> 
+    </div>
+    <div class="flip-card">
+        <div class="front yellow">
+            <img class="service-icon" src="img/icons/sticky_note.png" alt="Icon made by Good Ware from www.flaticon.com">
+            <div class="first-tag">Strategy</div>
+            <div class="re">
+                <div class="second-tag">Brand Positioning</div>
+                <div class="second-tag">Messaging</div>
+                <div class="second-tag">Naming</div>
+                <div class="second-tag">Go-To-Market Strategy</div>
+            </div>
+        </div> 
+    </div>
+    <div class="flip-card">
+        <div class="front blue">
+            <img class="service-icon" src="img/icons/profit-line-chart.png" alt="Icon made by Good Ware from www.flaticon.com">
+            <div class="first-tag">Innovation</div>
+            <div class="re">
+                <div class="second-tag">Innovation Strategy</div>
+                <div class="second-tag">Ideation Workshops</div>
+                <div class="second-tag">Concept Development</div>
+                <div class="second-tag">New Product Testing</div>
+            </div>
+        </div> 
+    </div>
+    <div class="flip-card">
+        <div class="front green">
+            <img class="service-icon" src="img/icons/prototyping.png" alt="Icon made by Good Ware from www.flaticon.com">
+            <div class="first-tag">Creative</div>
+            <div class="re">
+                <div class="second-tag">Branding</div>
+                <div class="second-tag">Marketing</div>
+                <div class="second-tag">Sales</div>
+                <div class="second-tag">Digital</div>
+            </div>
+        </div> 
+    </div>
+</div>
+
+<div id="work" class="anchor"></div>
+<div class="divide"><h2>Work</h2></div>
+
+<div class="section">
+	<div id="redvines" class="hvrbox" onclick="openModal(this)">
+		<img class="card-image" src="img/logo/Red Vines Logo.jpeg" alt="red vines">
+		<div class="hvrbox-layer_top">
+			<div class="hvrbox-text">Red Vines</div>
+			<div class="hvrbox-text-1">Repositioning and Innovation</div>
+		</div>
+	</div>
+	<div id="redvines-modal" class="modal">
+	    <div class="modal-content">
+	        <span id="redvines-close" class="close">&times;</span>
+	        <div>
+	         	<span class="project-title"><strong>Red Vines</strong></span>
+	         	<p class="work-quote"><em>Re-positioning / Relaunch / Innovation</em></p>
+	        </div>
+            <div class="modal-indent">
+				<div>
+				    Competing against a well-known brand managed by a Fortune 500 company, Red Vines was facing significant competitive headwinds.  However, the brand still had goals of expanding outside of its core markets and realize its vision of growing market share.
+				</div>
+                <br>
+				<div> 
+				    To assist, we developed an overarching strategy to defend share by re-positioning and relaunching the brand, basing the new direction on key consumer insights.  In conjunction, we developed a robust innovation strategy that included the launch of a new sub-brand to meet the needs of consumers as Red Vines expands distribution outside of its core markets.  
+				</div> 
+                <br>
+                <div>
+                	The brand re-launch was hugely successful and resulted in notable share and distribution gains.
+                </div>    
+                <div class="font">
+                	Completed while the Founder was employed at American Licorice Company, the maker of Red Vines.  
+            	</div>
+            </div>
+	    </div>
+	</div>
+
+	<div id="norton" class="hvrbox" onclick="openModal(this)">
+		<img class="card-image" src="img/logo/shutterstock_1086315344.jpg" alt="norton">
+		<div class="hvrbox-layer_top">
+			<div class="hvrbox-text">Symantec</div>
+			<div class="hvrbox-text-1">Industry Benchmarking</div>
+		</div>
+	</div>
+	<div id="norton-modal" class="modal">
+	    <div class="modal-content">
+	        <span id="norton-close" class="close">&times;</span>
+	        <div>
+	        	<span class="project-title"><strong>Symantec</strong></span>
+	        	<p class="work-quote"><em>Industry Benchmarking / Trends Analysis</em></p>
+	        </div>
+	        <div class="modal-indent">
+	            <div>
+	                As its portfolio of products and services continued to expand, the Norton team within Symantec realized that continuing to efficiently provide superior customer service over the phone would be difficult.  Developing an omni-channel support system for its customers would be key, but questions arose on what that would look like.
+	            </div>
+	            <br>
+	            <div> 
+	                ​We reviewed three industry analogs to map out a customer's journey through best-in-class support systems, noting how the experience can differ across website, mobile and app.  We also analyzed how automation was leveraged in providing support and supplemented our findings with reviews of industry-leading publications on omni-channel support. 
+	            </div> 
+	            <br>
+	            <div>The benchmarking work provided inspiration and lay the foundation for future updates to the  Norton Support portal.</div>    
+	            <div class="font">Completed while the Founder was the Senior Strategy Director at Anthem Worldwide, a strategic branding agency</div>
+	        </div>
+	    </div>
+	</div>
+
+	<div id="jmsmucker" class="hvrbox" onclick="openModal(this)">
+		<img class="card-image" src="img/logo/Smuckers Pet Innovation.jpg" alt="smuckers pet">
+		<div class="hvrbox-layer_top">
+			<div class="hvrbox-text">JM Smucker</div>
+			<div class="hvrbox-text-1">Ideation</div>
+		</div>
+	</div>
+	<div id="jmsmucker-modal" class="modal">
+	    <div class="modal-content">
+	        <span id="jmsmucker-close" class="close">&times;</span>
+	        <div>
+	          <span class="project-title"><strong>The JM Smucker Company</strong></span>
+	          <p class="work-quote"><em>Innovation / Ideation</em></p>
+	        </div>
+	        <div class="modal-indent">
+	            <div>
+	                The JM Smucker Company identified the pet specialty channel as a key growth opportunity and decided to leverage the extreme loyalty of consumers in that channel to increase overall market share.
+	            </div>
+	            <br>
+	            <div> 
+	                We partnered with the company to select the richest strategic growth opportunity areas and developed three innovation platforms to inspire ideation and stretch thinking.  We then designed and moderated a full-day ideation workshop, utilizing the design-thinking concepts of diverge, converge and iterate.  
+	            </div> 
+	            <br>
+	            <div>The ideation resulted in over 35 ideas, of which multiple concepts were fully developed for consumer validation.</div>    
+	            <div class="font">Completed while the Founder was the Strategy Director at Anthem Worldwide, a strategic branding agency.</div>
+	        </div>
+	    </div>
+	</div>
+
+	<div id="saas" class="hvrbox" onclick="openModal(this)">
+		<img class="card-image" src="img/logo/woman.jpg" alt="pretty woman">
+		<div class="hvrbox-layer_top">
+			<div class="hvrbox-text">SaaS Start-Up</div>
+			<div class="hvrbox-text-1">Brand Strategy & Insights Gathering</div>
+		</div>
+	</div>
+	<div id="saas-modal" class="modal">
+	    <div class="modal-content">
+	        <span id="saas-close" class="close">&times;</span>
+	        <div>
+	          <span class="project-title"><strong>SaaS Start-Up</strong></span>
+	          <p class="work-quote"><em>Brand Strategy / Insights Gathering</em></p>
+	        </div>
+            <div class="modal-indent">
+				<div>
+					A global SaaS start-up in the beauty industry had made great strides growing its marketplace in the US, but was struggling to get customers to book their appointments online after they researched various vendors.  Understanding why this was happening was critical in order to determine future growth strategies.
+				</div>
+                <br>
+				<div> 
+					We conducted an in-depth analysis to arrive at hypotheses for the low conversion and then conducted 14 in-depth interviews in a key market to understand the most important considerations in making beauty booking decisions.
+				</div> 
+                <br>
+                <div>
+                	The customer research helped confirm our hypotheses on key drivers and also provided insight into how the drivers were similar, or different, by customer segment, arming the team with the information needed to finalize future growth strategies. 
+                </div>    
+                <div class="font"></div>
+            </div>
+	    </div>
+	</div>
+
+	<div id="ray" class="hvrbox" onclick="openModal(this)">
+		<img class="card-image" src="img/logo/Rayberns Grilled Cheese.jpg" alt="raybern grill">
+		<div class="hvrbox-layer_top">
+			<div class="hvrbox-text">Raybern's</div>
+			<div class="hvrbox-text-1">Messaging & Consumer Research</div>
+		</div>
+	</div>
+	<div id="ray-modal" class="modal">
+	    <div class="modal-content">
+	        <span id="ray-close" class="close">&times;</span>
+	        <div>
+	        	<span class="project-title"><strong>Raybern's</strong></span>
+	        	<p class="work-quote"><em>Messaging / Consumer Research</em></p>
+	        </div>
+            <div class="modal-indent">
+				<div>
+				    Raybern's was in the process of launching a new line of grilled melt sandwiches, but was debating how to communicate the new products to consumers.  In addition, the company wanted to get additional feedback on both the product and packaging.  
+				</div>
+                <br>
+				<div> 
+					We leveraged social media to recruit and screen potential consumers to talk to, and brought them all together for focus groups that we moderated to get feedback on the product, packaging and messaging.    
+				</div> 
+                <br>
+                <div>
+                	The session helped pinpoint that the ideal message was one that communicated the emotional benefits vs. product attributes.  And, it led to consumer testimonials the team could use in future marketing communications.
+                </div>    
+                <div class="font">
+            	</div>
+            </div>
+	    </div>
+	</div>
+
+	<div id="sym" class="hvrbox" onclick="openModal(this)">
+		<img class="card-image" src="img/logo/Symantec Innovation Process.jpg" alt="symantec">
+		<div class="hvrbox-layer_top">
+			<div class="hvrbox-text">Symantec</div>
+			<div class="hvrbox-text-1">Innovation Process Development</div>
+		</div>
+	</div>
+	<div id="sym-modal" class="modal">
+	    <div class="modal-content">
+	        <span id="sym-close" class="close">&times;</span>
+	        <div>
+	          <span class="project-title"><strong>Symantec</strong></span>
+	          <p class="work-quote"><em>​Innovation Process Development </em></p>
+	        </div>
+            <div class="modal-indent">
+				<div>
+				    Symantec realized the need for innovation to sustain future growth, yet did not have a formal process in place that provided structure and guidance to the cross-functional teams tasked with launching the next innovation.  
+				</div>
+                <br>
+				<div> 
+					We interviewed over 30 key stakeholders throughout the organization and developed a comprehensive go-to-market process that identified key milestones and clearly assigned roles for various members of the cross-functional teams.
+				</div> 
+                <br>
+                <div>
+                	The new go-to-market process helped streamline, and fast-track, innovation as "swim lanes" were clearly identified among the respective teams.
+                </div>    
+                <div class="font">
+                	Completed while the Founder was the Strategy Director at Anthem Worldwide, a strategic branding agency
+            	</div>
+            </div>
+	    </div>
+	</div>
+</div>
+<!--END-->
+
+<div class="divide"><h2>Brands Impacted</h2></div>
+<div class="brand-quote">Our work has impacted start-ups and Fortune 500 companies across numerous industries.</div>
+<main role="main">
+	<figure><img class="gal" src="img/logo/redvines_logo.png"></figure>
+	<figure><img class="gal" src="img/logo/lifeLock.jpg"></figure>
+	<figure><img class="gal" src="img/logo/StarKist Logo Updated .png"></figure>
+	<figure><img class="gal" src="img/logo/Del Monte Logo.jpg"></figure>
+	<figure><img class="gal" src="img/logo/Constellation Brands.png"></figure>
+	<figure><img class="gal" src="img/logo/PopSecret Logo.png"></figure>
+	<figure><img class="gal" src="img/logo/Meow Mix Logo.png"></figure>
+	<figure><img class="gal" src="img/logo/Smuckers.jpg"></figure>
+	<figure><img class="gal" src="img/logo/ray.jpg"></figure>
+	<figure><img class="gal" src="img/logo/Booksy Logo.png"></figure>
+	<figure><img class="gal" src="img/logo/Silicon Valley Bank Logo.png"></figure>
+	<figure><img class="gal" src="img/logo/Chefables Logo.png"></figure>
+</main>
+
+<div id="about" class="anchor"></div>
+<div class="divide"><h2>About</h2></div>
+
+<!-- <div class="section-about">
+		<p class="aboutp">Entrepreneurs at heart, we are passionate brand builders.</p>
+		<p class="aboutp">We find great joy in discovering that golden consumer insight and partnering with our clients – big or small – to build businesses, brands, and products that meet the needs of today’s consumer.</p>
+		<p class="aboutp">We offer a full range of services to build a new brand or reignite growth for an existing brand.  Our team is fully staffed with strategists, researchers, designers and innovators - all working together to help our clients overcome new challenges and deliver meaningful business results.</p>
+		<p class="aboutp">We can lead a project from beginning to end or step in at any stage.  Our approach is tailored to what works for you.  And, we work with one mission in mind - to help you succeed and find your North Star.</p>
+		<p class="aboutp">Your success is our success.</p>			
+</div> -->
+
+<div class="wrappersteph">
+    <img class="steph" src="img/logo/steph.png">
+    <div class="wine-text-container">
+        <div class="steph-msg">An entrepreneur at heart, I created North Star Brand Builders to ensure that every brand has the chance to succeed.</div>
+		<div class="steph-msg-1">Based in San Francisco, we are a brand and design consultancy that leverages customer and consumer insights to define a brand's purpose and create strategic plans to help every business reach their North Star. </div>
+		<div class="steph-msg-1">Working together, my team of strategists, researchers, designers and innovators bring the top-notch support and strategic guidance that many of the big brands enjoy. However, we do so at a fraction of the cost by eliminating the "fluff" and focusing on what's really needed to deliver meaningful results.</div> 
+		<div class="steph-msg-1">And, we can lead a project from beginning to end, or step in at any stage in the process. Our approach is tailored to what works for you, and we have one goal in mind - to help you succeed and find your North Star.</div>
+		<div class="steph-msg-1">Your success is our success.</div>
+    </div>
+</div>
+
+<ul class="quote-slider">
+	<li id='quote0'>
+		"Thanks again for an outstanding ideation workshop. We got some really great ideas out of it to move the business forward."
+		<div class="site">SVP Strategy & Operations, Symantec</div>
+	</li>
+	<li id='quote1'>
+		"Great research session today. Learned a ton about our consumers and our hunch on messaging proved right."
+		<div class="site">Senior Marketing Director, Raybern's</div>
+	</li>
+	<li id='quote2'>
+		"Thanks for the excellent work [industry benchmarking] and thought-provoking strategy options for us to consider."
+		<div class="site">Senior Director E-Services, Symantec</div>
+	</li>
+	<li id='quote3'>
+		"Great work with the research. We truly have a better understanding now of what our customers want and how to move forward."
+		<div class="site">CMO, SaaS Start-Up</div>
+	</li>
+	<li id='quote4'>
+		"You really worked hard and did a nice job on the positioning. You guys hit it straight on."
+		<div class="site">CMO, Chefables</div>
+	</li>
+</ul>
+
+<div id="contact" class="anchor"></div>
+<div class="divide"><h2>Contact</h2></div>
+
+<section id="contact" class="container-fluid">
+	<div>
+		<form action="https://mailthis.to/stephanie@northstarbb.com" method="POST" enctype="multipart/form-data" autocomplete="off" class="row">
+			<div class="msg">
+				<input type="text" name="Name" placeholder="Your Name">
+			</div>
+			<div class="msg">
+				<input type="text" name="Email" placeholder="Your Email">
+			</div>
+			<div class="msg">
+				<textarea class='msg1' name="Message" placeholder="Your Message"></textarea>
+			</div>
+			<div class="msg">
+				<input type="submit" value="Send" id="sendBtn">
+			</div>
+		    <input type="hidden" name="Confirmation" value="Your message was successfully sent to Stephanie!">
+		</form>
+	</div>
+	<div>
+		<div class="chat letschat">Let's Chat!</div>
+		<div class="chat">Want more information? Contact us today for a free consultation and see how we can help you find your North Star.</div>
+		<div class="chat letschat">Contact Us</div>
+		<div class="chat underline"><i class="far fa-envelope">&nbsp;</i>stephanie@northstarbb.com</div>
+		<div class="chat underline"><i class="fas fa-phone">&nbsp;</i>650.619.1244</div>
+	</div>
+</section>
+
+<div class="footer">
+  <p style="color: #F5F6F7">&copy; 2020 - North Star Brand Builders. All Rights Reserved.</p>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/loader.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+.divide{
+    padding: .5em 3em;
+    text-align: center;
+    background-color: grey;
+}
+
+.divide h2{
+    margin: 0;
+    padding-top: 4px;
+    font-size: 2em;
+    color: white;
+}
+
+.anchor{
+    position: relative;
+    top: -61px;
+}
+
+@media screen and (min-width: 900px){
+    .anchor{
+        top: -50px;
+    }
+}
