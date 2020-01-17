@@ -1,34 +1,21 @@
-.section-about {
-    width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    font-size: 20px;
-}
-
-.aboutp{padding: 5px;}
-
-.steph {
-    object-fit: scale-down;
-    margin-top: 80px;
-}
-
 .wrappersteph {
   display:flex;
   flex-direction: column;
   align-items:center;
   justify-content:center;
-  margin-top: 35px;
-  margin-bottom: 70px;
+  width: 100%;
+  margin: 100px auto;
+}
+  
+.steph {
+    object-fit: scale-down;
 }
 
 .steph-msg{
     max-width: 1500px;
-    margin: 15px auto;
+    margin: 0 auto;
     width: 90%;
     font-size: 20px;
-    padding-top: 70px;
 }
 
 
@@ -39,21 +26,9 @@
     font-size: 20px;
 }
 
-
-@media screen and (max-width:900px) {
-   .section-about {
-        max-width: 1500px;
-        margin: 30px auto;
-        width: 90%;
-    }
-
-}
-
 @media screen and (min-width: 900px){
     .wrappersteph{
         flex-direction: row;
         width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
     }
 }
