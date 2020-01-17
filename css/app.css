@@ -9,9 +9,7 @@ html{
 	scroll-behavior: smooth;
 }
 
-body{
-	overflow-x: hidden;
-}
+body{overflow-x: hidden;}
 
 #to-top {
 	opacity: .7;
@@ -34,10 +32,11 @@ body{
 }
 
 :root{
-	--darkpink: #ac83cf;
+	--purple: #ac83cf;
 	--darkpinkhover: #3e2152;
-	--grey: #fafafa;
+	--grey: #808080;
 	--white: #ffffff;
 	--black: #000000;
 	--titles: #282828;
+	--headerfooter: #393939;
 }

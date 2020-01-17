@@ -10,11 +10,8 @@
 .img2{
   animation-name: fade;
   animation-duration: 1s;
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/logo/paul.jpg) 
-              center bottom / cover 
-              no-repeat 
-              fixed
-              #F7E7CE;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/logo/paul.jpg) center bottom no-repeat fixed;
+  background-size: cover;
   height: 100vh;
   width: 100%;
 }
@@ -22,11 +19,8 @@
 .img3{
   animation-name: fade;
   animation-duration: 1s;
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/logo/sf.jpg)
-              center top / cover 
-              no-repeat 
-              fixed 
-              #F7E7CE;
+  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../img/logo/sf.jpg) center top no-repeat fixed;
+  background-size: cover;
   height: 100vh;
   width: 100%;
 }
@@ -36,28 +30,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 95vh;
-}
-
-#titleX{
-  visibility: hidden;
-  text-align: center;
-}
-
-button{
-  background: none;
-  cursor:pointer;
-  border: 2px solid var(--darkpink); 
-  color: white;
-}
-
-.titleXX{
-  visibility: visible !important;
-  color: var(--white); 
-  font-size: 20px;
-  font-weight: 500;
-  animation-name: fadeInUp;
-  animation-duration: 2s;
+  height: 100vh;
 }
 
 .title{
@@ -67,15 +40,23 @@ button{
   text-align: center;
 }
 
-.subtitle:hover{
-  color: var(--darkpink); 
-  border: 3px solid var(--darkpink); 
-}
-
 .subtitle{
+  text-decoration: none;
+  background: none;
+  cursor: pointer;
+  color: var(--white); 
   padding: 13px 40px;
   margin-top: 23px;
   border-radius: 10px;
+  font-weight: 600;
+  box-shadow: 0 8px 16px 0 rgba(255,255,255,.3), 0 6px 20px 0 rgba(255,255,255,.3);
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.subtitle:hover{
+  color: var(--purple); 
+  border: 3px solid var(--purple); 
 }
 
 .prev{
@@ -83,13 +64,9 @@ button{
   left: 6%;
   top: 50%;
   transform: translate(-50%,-50%);
-  /*border: 3px solid white;*/
-  border-radius: 30%;
-  color: white;
+  color: var(--white); 
   cursor: pointer;
   font-weight: bold;
-  padding: 10px;
-  font-size: 50px;
 }
 
 .next{
@@ -97,76 +74,53 @@ button{
   left: 94%;
   top: 50%;
   transform: translate(-50%,-50%);
-  /*border: 3px solid white;*/
-  border-radius: 30%;
   color: white;
   cursor: pointer;
   font-weight: bold;
-  padding: 10px;
-  font-size: 50px;
 }
 
 .prev:hover, .next:hover {
-  color: var(--darkpink); 
-  /*border: 3px solid var(--darkpink); */
+  color: var(--purple); 
 }
 
 @keyframes fade{
-  0%{
-    opacity: .5;
-  } 
-  100% {
-    opacity: 1;
-  }
+  0%{opacity:.5;} 
+  100%{opacity: 1;}
 }
 
-@media screen and (min-width: 450px){
-  .titleXX{
-    font-size: 30px;
-  }
-  .title{
-    font-size: 30px;
-  }
-  .subtitle{
-    font-size: 20px;
-    padding: 13px 40px;
-    margin-top: 23px;
-    border: 3px solid white;
-    border-radius: 10px;
-  }
+@media screen and (min-width:320px){
+  .next{font-size: 10px;}
+  .prev{font-size: 10px;}
 }
 
-@media screen and (min-width: 610px){
-  .titleXX{
-    font-size: 40px;
-  }
-  .title{
-    font-size: 40px;
-  }
-  .subtitle{
-    font-size: 20px;
-    padding: 13px 40px;
-    margin-top: 23px;
-    border: 3px solid white;
-    border-radius: 10px;
-  }
-}
-
-@media screen and (min-width: 900px){
-  .titleXX{
-    font-size: 70px;
-  }
-  .title{
-    font-size: 70px;
-  }
-	.subtitle{
-    font-size: 20px;
-    padding: 13px 40px;
-    margin-top: 23px;
-    border: 3px solid white;
-    border-radius: 10px;
-    font-weight: 600;
-    box-shadow: 0 8px 16px 0 rgba(255,255,255,.3), 0 6px 20px 0 rgba(255,255,255,.3);
-	}
+@media screen and (min-width:400px){
+  .title{font-size: 25px;}
+  .subtitle{font-size: 14px;}
+  .next{font-size: 20px;}
+  .prev{font-size: 20px;}
 
 }
+@media screen and (min-width:450px){
+  .title{font-size: 28px;}
+  .subtitle{font-size: 16px;}
+  .next{font-size: 30px;}
+  .prev{font-size: 30px;}
+}
+
+@media screen and (min-width:610px){
+  .title{font-size: 40px;}
+  .subtitle{font-size: 20px;}
+  .next{font-size: 40px;}
+  .prev{font-size: 40px;}
+}
+
+@media screen and (min-width:900px){
+  .title{font-size: 55px;}
+  .next{font-size: 50px;}
+  .prev{font-size: 50px;}
+}
+
+
+
+
+

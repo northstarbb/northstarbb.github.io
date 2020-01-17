@@ -9,13 +9,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/divider.css">
+
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/landing.css">
-  <link rel="stylesheet" href="css/divider.css">
   <link rel="stylesheet" href="css/service.css">
   <link rel="stylesheet" href="css/work.css">
   <link rel="stylesheet" href="css/brands.css">
-  <link rel="stylesheet" href="css/slider.css">
   <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/footer.css">
@@ -25,19 +25,16 @@
 <div><button onclick="toTop()" id="to-top">Go Top</button></div>
 <div id="home"></div>
 
-<!-- Nav Begin -->
 <nav class="nav-wrap">
   <span class="nav-hamburger" id="js-navbar-toggle">
     <i class="fas fa-bars"></i>
   </span>
-
   <div class="logo-title-wrap">
     <img class="logo" width="49" height="47" src="img/logo/star.png" alt="star logo">
-    <li>
+    <div>
         <span class="nsbb"><a class="anchor-color" href="#home">North Star Brand Builders</a></span> 
-    </li>
+    </div>
   </div>
-
   <ul class="content-nav" id="js-menu">
     <li><a href="#home" class="nav-links">Home</a></li>
     <li><a href="#service" class="nav-links">Services</a></li>
@@ -46,24 +43,24 @@
     <li><a href="#contact" class="nav-links">Contact</a></li>
   </ul>
 </nav>
-<!-- Nav End -->
+
 <!-- Landing Begin -->
 <div class="mySlides img1">
   <div class="title-container">
-    <span id="titleX">Helping Brands Find Their North Star</span>
-    <a href="#service"><button class="subtitle">Explore Our Services</button></a>
+    <span class="title">Helping Brands Find Their North Star</span>
+    <a class="subtitle" href="#service">Explore Our Services</a>
   </div>
 </div>
 <div class="mySlides img2">
   <div class="title-container">
     <span class="title">Building Businesses Consumers Love</span>
-    <a href="#work"><button class="subtitle">View Our Work</button></a>
+    <a class="subtitle" href="#work">View Our Work</a>
   </div>
 </div>
 <div class="mySlides img3">
   <div class="title-container">
-    <span class="title override">Your Success Is Our Success</span>
-    <a href="#service"><button class="subtitle">Let's Get Started</button></a>
+    <span class="title">Your Success Is Our Success</span>
+    <a class="subtitle" href="#service">Let's Get Started</a>
   </div>
 </div>
 <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -141,7 +138,7 @@
 
 <div class="section">
 	<div id="redvines" class="hvrbox" onclick="openModal(this)">
-		<img class="card-image" src="img/logo/Red Vines Logo.jpeg" alt="red vines">
+		<img class="card-image" src="img/logo/red_vines.jpeg" alt="red vines">
 		<div class="hvrbox-layer_top">
 			<div class="hvrbox-text">Red Vines</div>
 			<div class="hvrbox-text-1">Repositioning and Innovation</div>
@@ -174,7 +171,7 @@
 	</div>
 
 	<div id="norton" class="hvrbox" onclick="openModal(this)">
-		<img class="card-image" src="img/logo/shutterstock_1086315344.jpg" alt="norton">
+		<img class="card-image" src="img/logo/guy_with_pencil.jpg" alt="norton">
 		<div class="hvrbox-layer_top">
 			<div class="hvrbox-text">Symantec</div>
 			<div class="hvrbox-text-1">Industry Benchmarking</div>
@@ -203,7 +200,7 @@
 	</div>
 
 	<div id="jmsmucker" class="hvrbox" onclick="openModal(this)">
-		<img class="card-image" src="img/logo/Smuckers Pet Innovation.jpg" alt="smuckers pet">
+		<img class="card-image" src="img/logo/smuckers_pet.jpg" alt="smuckers pet">
 		<div class="hvrbox-layer_top">
 			<div class="hvrbox-text">JM Smucker</div>
 			<div class="hvrbox-text-1">Ideation</div>
@@ -263,7 +260,7 @@
 	</div>
 
 	<div id="ray" class="hvrbox" onclick="openModal(this)">
-		<img class="card-image" src="img/logo/Rayberns Grilled Cheese.jpg" alt="raybern grill">
+		<img class="card-image" src="img/logo/raybern_grilled_cheese.jpg" alt="raybern grill">
 		<div class="hvrbox-layer_top">
 			<div class="hvrbox-text">Raybern's</div>
 			<div class="hvrbox-text-1">Messaging & Consumer Research</div>
@@ -295,7 +292,7 @@
 	</div>
 
 	<div id="sym" class="hvrbox" onclick="openModal(this)">
-		<img class="card-image" src="img/logo/Symantec Innovation Process.jpg" alt="symantec">
+		<img class="card-image" src="img/logo/sym_ino_pro.jpg" alt="symantec">
 		<div class="hvrbox-layer_top">
 			<div class="hvrbox-text">Symantec</div>
 			<div class="hvrbox-text-1">Innovation Process Development</div>
@@ -331,20 +328,20 @@
 
 <div class="divide"><h2>Brands Impacted</h2></div>
 <div class="brand-quote">Our work has impacted start-ups and Fortune 500 companies across numerous industries.</div>
-<main role="main">
-	<figure><img class="gal" src="img/logo/redvines_logo.png"></figure>
-	<figure><img class="gal" src="img/logo/lifelock.jpg"></figure>
-	<figure><img class="gal" src="img/logo/StarKist Logo Updated .png"></figure>
-	<figure><img class="gal" src="img/logo/Del Monte Logo.jpg"></figure>
-	<figure><img class="gal" src="img/logo/Constellation Brands.png"></figure>
-	<figure><img class="gal" src="img/logo/PopSecret Logo.png"></figure>
-	<figure><img class="gal" src="img/logo/Meow Mix Logo.png"></figure>
-	<figure><img class="gal" src="img/logo/Smuckers.jpg"></figure>
-	<figure><img class="gal" src="img/logo/ray.jpg"></figure>
-	<figure><img class="gal" src="img/logo/Booksy Logo.png"></figure>
-	<figure><img class="gal" src="img/logo/Silicon Valley Bank Logo.png"></figure>
-	<figure><img class="gal" src="img/logo/Chefables Logo.png"></figure>
-</main>
+<div class="main">
+	<figure><img class="gal" src="img/logo/redvines_logo.png" alt="red vines"></figure>
+	<figure><img class="gal" src="img/logo/lifelock.jpg" alt="lifelock"></figure>
+	<figure><img class="gal" src="img/logo/star_kist.png" alt="starkist"></figure>
+	<figure><img class="gal" src="img/logo/del_monte.jpg" alt="del monte"></figure>
+	<figure><img class="gal" src="img/logo/constellation_brands.png" alt="constellation brand"></figure>
+	<figure><img class="gal" src="img/logo/pop_secret.png" alt="popsecret"></figure>
+	<figure><img class="gal" src="img/logo/meow_mix.png" alt="meowmix"></figure>
+	<figure><img class="gal" src="img/logo/smuckers.jpg" alt="smuckers"></figure>
+	<figure><img class="gal" src="img/logo/ray.jpg" alt="raybern"></figure>
+	<figure><img class="gal" src="img/logo/booksy.jpg" alt="booksy"></figure>
+	<figure><img class="gal" src="img/logo/svb.png" alt="svb"></figure>
+	<figure><img class="gal" src="img/logo/chefables.jpg" alt="chefables"></figure>
+</div>
 
 <div id="about" class="anchor"></div>
 <div class="divide"><h2>About</h2></div>
