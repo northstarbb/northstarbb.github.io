@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/divider.css">
-
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/landing.css">
   <link rel="stylesheet" href="css/service.css">
@@ -169,7 +168,7 @@
 	</div>
 
 	<div id="norton" class="hvrbox" onclick="openModal(this)">
-		<img class="card-image" src="img/logo/guy_with_pencil.jpg" alt="norton">
+		<img class="card-image" src="img/logo/guy_with_pencil.jpg" alt="guy with pencil">
 		<div class="hvrbox-layer_top">
 			<div class="hvrbox-text">Symantec</div>
 			<div class="hvrbox-text-1">Industry Benchmarking</div>
@@ -381,35 +380,25 @@
 <div class="divide"><h2>Contact</h2></div>
 
 <div class="container-fluid">
-	<div>
-		<form action="https://mailthis.to/stephanie@northstarbb.com" method="POST" enctype="multipart/form-data" autocomplete="off" class="row">
-			<div class="msg">
-				<input type="text" name="Name" placeholder="Your Name">
-			</div>
-			<div class="msg">
-				<input type="text" name="Email" placeholder="Your Email">
-			</div>
-			<div class="msg">
-				<textarea class='msg1' name="Message" placeholder="Your Message"></textarea>
-			</div>
-			<div class="msg">
-				<input type="submit" value="Send" id="sendBtn">
-			</div>
-		    <input type="hidden" name="Confirmation" value="Your message was successfully sent to Stephanie!">
-		</form>
-	</div>
-	<div>
-		<div class="chat letschat">Let's Chat!</div>
+	<div class="chats">
+		<div class="chat bolded">Let's Chat!</div>
 		<div class="chat">Want more information? Contact us today for a free consultation and see how we can help you find your North Star.</div>
-		<div class="chat letschat">Contact Us</div>
+		<div class="chat bolded">Contact Us</div>
 		<div class="chat underline"><i class="far fa-envelope">&nbsp;</i>stephanie@northstarbb.com</div>
 		<div class="chat underline"><i class="fas fa-phone">&nbsp;</i>650.619.1244</div>
 	</div>
+	<div class="fill-info">
+		<form action="https://mailthis.to/stephanie@northstarbb.com" method="POST" enctype="multipart/form-data" autocomplete="off"> 
+			<div><input class="name" type="text" name="Name" placeholder="Your Name" style="height:50px; width:150px;"></div>
+			<div><input class="email" type="text" name="Email" placeholder="Your Email" style="height: 50px; width: 150px;"></div>
+			<div><textarea class="message" name="Message" placeholder="Your Message" style="height: 50px; width: 250px;" rows="5"></textarea></div>
+			<div><input class="submit" type="submit" value="Send" id="sendBtn"></div>
+		    <input type="hidden" name="Confirmation" value="Your message was successfully sent to Stephanie!">
+		</form>
+	</div>
 </div>
 
-<div class="footer">
-  <p style="color: #F5F6F7">&copy; 2020 - North Star Brand Builders. All Rights Reserved.</p>
-</div>
+<div class="footer"><p style="color: #F5F6F7">&copy; 2020 - North Star Brand Builders. All Rights Reserved.</p></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="js/loader.js"></script>
 </body>

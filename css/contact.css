@@ -1,14 +1,50 @@
 .container-fluid{
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 120px;
-    margin-top: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-flow: row wrap;
-    justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.chats{
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.fill-info{
+  padding: 10px;
+}
+
+.name{
+  border: 1px solid var(--purple);
+   padding: 10px;
+}
+
+.email{
+    border: 1px solid var(--purple);
+    margin-top: 10px;
+     padding: 10px;
+}
+
+.message{
+  border: 1px solid var(--purple);
+  margin-top: 10px;
+  font-family: Arial;
+  padding: 10px;
+}
+
+.submit{
+  margin-top: 10px;
+  border: 1px solid var(--purple);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.submit:hover{
+  cursor: pointer;
 }
 
 .chat{
@@ -16,27 +52,25 @@
     margin-top: 10px;
 }
 
-.letschat{
-    font-weight: bold;
-    font-size: 20px;
+.bolded{
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.msg{margin: 5px;}
-input{padding: 5px;}
-textarea{padding: 50px;}
-.underline{text-decoration: underline;}
+.underline{
+  text-decoration: underline;
+}
 
+/*q slider*/
 .quote-slider{
   width: 100%;
-  height: 300px;
+  height: 400px;
   background-color: lightgrey;
   list-style: none;
-  display: block;
   position: relative;
 }
 
 .quote-slider li{
-  display: inline-block;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -48,13 +82,15 @@ textarea{padding: 50px;}
   text-align: center;
 }
 
-.quote-slider li .site {
+.site {
   font-family: sans-serif;
   font-style: normal;
   margin-top: 40px;
   font-size: 16px;
 }
 
-.msg1{
-  font-family: Arial;
+@media (min-width: 600px){
+  .container-fluid{
+    flex-direction: row;
+  }
 }

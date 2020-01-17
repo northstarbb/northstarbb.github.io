@@ -1,2 +1,1 @@
 # northstarbb.github.io
-website

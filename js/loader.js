@@ -1,13 +1,5 @@
-window.onload = function() {
-  showPage();
-}
-
 window.onscroll = function() {
     scrollFunction();
-};
-
-function showPage(){
-  document.getElementById('titleX').classList.add('titleXX');
 };
 
 // NAV START
@@ -89,7 +81,6 @@ function openModal(e) {
     }
 }
 
-
 $(function() {
     var i = -1;
     slideCount = 5;
@@ -111,5 +102,3 @@ $(function() {
     };
     timeout();
 });
-
-
