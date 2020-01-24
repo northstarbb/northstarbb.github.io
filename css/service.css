@@ -79,4 +79,13 @@
   .service-wrap{
     grid-template-columns: repeat(5, 1fr);
   }
+  .second-tag{
+    font-size: 15.5px;
+  }
+}
+
+@media (min-width: 1210px){
+  .second-tag{
+    font-size: 20px;
+  }
 }
