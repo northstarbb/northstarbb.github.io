@@ -1,0 +1,46 @@
+
+.brand-quote {
+	text-align: center;
+	padding: 30px 0;
+	font-size: 25px;
+}
+
+.main {
+	display: grid;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 100px;
+	/*background-color: lightgrey;*/
+}
+
+.gal {
+	border-radius: 25px;
+	width: 100%;
+	object-fit: contain;
+	height: 125px;
+}
+
+@media screen and (min-width:320px) {
+	.main {
+		grid-template-columns: repeat(1, 1fr);
+		width: 90%;
+		grid-gap: 1em;
+	}
+}
+
+@media screen and (min-width:610px) {
+	.main {
+		grid-template-columns: repeat(2, 1fr);
+		width: 70%;
+		grid-gap: 1em;
+	}
+}
+
+@media screen and (min-width:1200px) {
+	.main {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		grid-template-rows: auto;
+		width: 60%;
+	}
+}
