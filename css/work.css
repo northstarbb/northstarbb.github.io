@@ -207,6 +207,13 @@
 	border-radius: 10px;
 }
 
+#hvrbox-modal-content-footer {
+	width: 100%;
+	display: flex;
+	font-size: 14px;
+	font-style: italic;
+}
+
 @media screen and (max-width:1000px) {
 	.modal {
 		padding: 0;

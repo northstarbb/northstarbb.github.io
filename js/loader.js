@@ -98,7 +98,8 @@ function setUpHvrBoxModal() {
     let modalApproachText = document.getElementById("hvrbox-modal-content-info-left-section-approach-content");
     let modalResultText = document.getElementById("hvrbox-modal-content-info-left-section-result-content");
     let modalImg = document.getElementById("hvrbox-modal-content-info-img");
-
+    let modalFooter = document.getElementById("hvrbox-modal-content-footer");
+    console.log(modalFooter);
     for(let el of openModalElements) {
         el.addEventListener("click", function() {
             modal.style.display = "block";
@@ -109,7 +110,7 @@ function setUpHvrBoxModal() {
             let workImg = el.children[0].src;
             modalTitle.innerHTML = workName;
             // do if statement for all your work elements, must match image alt attribute
-            if(workName === "Red Vines") {
+            if(workName === "Red Vines*") {
                 //subtitle
                 modalSubtitle.innerHTML = "Repositioning / Relaunch / Innovation";
                 //challenge text
@@ -121,7 +122,9 @@ function setUpHvrBoxModal() {
                 //img src
                 modalImg.src = workImg;
                 //img alt 
-                modelImg.alt = workName;
+                modalImg.alt = workName;
+                //footer
+                modalFooter.innerHTML = "Completed by Stephanie Louie during her tenure as Brand Manager at Red Vines.";
             }
             else if(workName === "Global Grub") {
                 //subtitle
@@ -135,7 +138,9 @@ function setUpHvrBoxModal() {
                 //img src
                 modalImg.src = workImg;
                 //img alt 
-                modelImg.alt = workName;
+                modalImg.alt = workName;
+
+                modalFooter.innerHTML = "";
             }
             else if(workName === "Booksy") {
                 //subtitle
@@ -149,7 +154,9 @@ function setUpHvrBoxModal() {
                 //img src
                 modalImg.src = workImg;
                 //img alt 
-                modelImg.alt = workName;
+                modalImg.alt = workName;
+
+                modalFooter.innerHTML = "";
             }
             else if(workName === "NortonLifeLock") {
                 //subtitle
@@ -163,7 +170,9 @@ function setUpHvrBoxModal() {
                 //img src
                 modalImg.src = workImg;
                 //img alt 
-                modelImg.alt = workName;
+                modalImg.alt = workName;
+
+                modalFooter.innerHTML = "";
             }
             else if(workName === "Raybern Grilled Cheese") {
                 //subtitle
@@ -177,7 +186,9 @@ function setUpHvrBoxModal() {
                 //img src
                 modalImg.src = workImg;
                 //img alt 
-                modelImg.alt = workName;
+                modalImg.alt = workName;
+
+                modalFooter.innerHTML = "";
             }
             else if(workName === "Norton LifeLock") {
                 //subtitle
@@ -191,7 +202,9 @@ function setUpHvrBoxModal() {
                 //img src
                 modalImg.src = workImg;
                 //img alt 
-                modelImg.alt = workName;
+                modalImg.alt = workName;
+
+                modalFooter.innerHTML = "";
             }
             else if(workName === "KitchenTown") {
                 //subtitle
@@ -205,7 +218,9 @@ function setUpHvrBoxModal() {
                 //img src
                 modalImg.src = workImg;
                 //img alt 
-                modelImg.alt = workName;
+                modalImg.alt = workName;
+
+                modalFooter.innerHTML = "";
             }
             else if(workName === "Berkeley Haas") {
                 //subtitle
@@ -219,7 +234,9 @@ function setUpHvrBoxModal() {
                 //img src
                 modalImg.src = workImg;
                 //img alt 
-                modelImg.alt = workName;
+                modalImg.alt = workName;
+
+                modalFooter.innerHTML = "";
             }
             else if(workName === "Grace Health") {
                 //subtitle
@@ -233,7 +250,9 @@ function setUpHvrBoxModal() {
                 //img src
                 modalImg.src = workImg;
                 //img alt 
-                modelImg.alt = workName;
+                modalImg.alt = workName;
+
+                modalFooter.innerHTML = "";
             }
             else if(workName === "Silicon Valley Bank") {
                 //subtitle
@@ -247,9 +266,11 @@ function setUpHvrBoxModal() {
                 //img src
                 modalImg.src = workImg;
                 //img alt 
-                modelImg.alt = workName;
+                modalImg.alt = workName;
+
+                modalFooter.innerHTML = "";
             }
-            else if(workName === "JM Smucker") {
+            else if(workName === "JM Smucker*") {
                 //subtitle
                 modalSubtitle.innerHTML = "Innovation / Ideation";
                 //challenge text
@@ -261,7 +282,9 @@ function setUpHvrBoxModal() {
                 //img src
                 modalImg.src = workImg;
                 //img alt 
-                modelImg.alt = workName;
+                modalImg.alt = workName;
+
+                modalFooter.innerHTML = "Completed by Stephanie Louie during her tenure as Senior Director Brand Strategy at Anthem Worldwide";
             }
             else if(workName === "Tech Start-Up") {
                 //subtitle
@@ -275,7 +298,7 @@ function setUpHvrBoxModal() {
                 //img src
                 modalImg.src = workImg;
                 //img alt 
-                modelImg.alt = workName;
+                modalImg.alt = workName;
             }
         });
     }
