@@ -31,7 +31,7 @@
 	color: var(--black);
 	font-size: 2em;
 	margin: 0;
-	padding-top: 75px;
+	/*padding-top: 75px;*/
 	padding-bottom: 2px;
 }
 
@@ -39,6 +39,7 @@
 	background-color: white;
 	padding: .5em 3em;
 	text-align: center;
+	padding-top: 75px;
 }
 
 .divide-about{

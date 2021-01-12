@@ -116,7 +116,7 @@ function setUpHvrBoxModal() {
                 //challenge text
                 modalChallengeText.innerHTML = "Competing against a well-known brand managed by a Fortune 500 company, Red Vines was facing significant competitive headwinds. However, the brand still had goals of expanding outside of its core markets and realize its vision of growing market share.";
                 //apprach text
-                modalApproachText.innerHTML = "To assist, we developed an overarching strategy to defend share by re-positioning and relaunching the brand, basing the new direction on key consumer insights. In conjunction, we developed a robust innovation strategy that included the launch of a new sub-brand to meet the needs of consumers as Red Vines expands distribution outside of its core markets.";
+                modalApproachText.innerHTML = "To assist, we developed an overarching strategy to defend share by re-positioning and relaunching the brand, basing the new direction on key consumer insights. In conjunction, we developed a robust innovation strategy that included the launch of a new sub-brand to meet the needs of consumers as Red Vines expanded distribution outside of its core markets.";
                 //result text
                 modalResultText.innerHTML = "The brand re-launch was hugely successful and resulted in notable share and distribution gains.";
                 //img src
@@ -124,13 +124,13 @@ function setUpHvrBoxModal() {
                 //img alt 
                 modalImg.alt = workName;
                 //footer
-                modalFooter.innerHTML = "Completed by Stephanie Louie during her tenure as Brand Manager at Red Vines.";
+                modalFooter.innerHTML = "*Completed by Stephanie Louie during her tenure as Brand Manager at Red Vines.";
             }
             else if(workName === "Global Grub") {
                 //subtitle
-                modalSubtitle.innerHTML = "Repositioning & Consumer Research";
+                modalSubtitle.innerHTML = "Repositioning / Consumer Research";
                 //challenge text
-                modalChallengeText.innerHTML = "Global Grub’s DIY cooking kits eliminate all the hassles that adventurous cooks face as they “travel the culinary world”.  After successfully growing its B2B and wholesale business, Global Grub set out to expand its direct-to-consumer business, but first wanted to refine its positioning and better understand the needs of its current consumers.";
+                modalChallengeText.innerHTML = "After successfully growing its B2B and wholesale business, Global Grub set out to increase sales of its DIY cooking kits on its website.  However, before expanding its direct-to-consumer business, Global Grub first needed to refine its current positioning and determine the key messages that would best resonate with its future consumers.";
                 //apprach text
                 modalApproachText.innerHTML = "After a high-level category and competitive assessment, we developed three different positioning options for Global Grub.  We then conducted 12 in-depth interviews to gather key consumer insights on the use of cooking kits and their experience with Global Grub, as well as get feedback on the proposed positioning options.";
                 //result text
@@ -146,7 +146,7 @@ function setUpHvrBoxModal() {
                 //subtitle
                 modalSubtitle.innerHTML = "Brand Strategy / Insights Gathering";
                 //challenge text
-                modalChallengeText.innerHTML = "A global SaaS start-up in the beauty industry had made great strides growing its marketplace in the US, but was struggling to get customers to book their appointments online after they researched various vendors. Understanding why this was happening was critical in order to determine future growth strategies.";
+                modalChallengeText.innerHTML = "As a global SaaS start-up, Booksy had made great strides growing its presence in the U.S., but was struggling to get customers to book their appointments online after they researched various vendors. Understanding why this was happening was critical in order to determine future growth strategies.";
                 //apprach text
                 modalApproachText.innerHTML = "We conducted an in-depth analysis to arrive at hypotheses for the low conversion and then conducted 14 in-depth interviews in a key market to understand the most important considerations in making beauty booking decisions.";
                 //result text
@@ -174,7 +174,7 @@ function setUpHvrBoxModal() {
 
                 modalFooter.innerHTML = "";
             }
-            else if(workName === "Raybern Grilled Cheese") {
+            else if(workName === "Raybern's") {
                 //subtitle
                 modalSubtitle.innerHTML = "Messaging / Consumer Research";
                 //challenge text
@@ -192,13 +192,13 @@ function setUpHvrBoxModal() {
             }
             else if(workName === "Norton LifeLock") {
                 //subtitle
-                modalSubtitle.innerHTML = "Consumer Insights & Ideation";
+                modalSubtitle.innerHTML = "Consumer Insights / Ideation";
                 //challenge text
-                modalChallengeText.innerHTML = "Facing increasing competitive pressures, NortonLifeLock wanted to develop a best-in-class loyaltyprogram that would increase customer engagement and value perception, and drive greater retention andrevenue.";
+                modalChallengeText.innerHTML = "Facing increasing competitive pressures, NortonLifeLock wanted to develop a best-in-class loyalty program that would increase customer engagement and value perception, and drive greater retention and revenue.";
                 //apprach text
-                modalApproachText.innerHTML = "We partnered with the client on a multi-phase project that first involved a review of other best-in-classloyalty programs for inspiration. We then conducted 12 in-depth interviews with the client’s customers togather insights on loyalty program expectations. With the information gathered, we then designed andmoderated two full-day ideation sessions to create key elements of the program, including the name,rewards structure, and benefits to be earned, ensuring that all output tied back to what their customersdesired in a loyalty program.";
+                modalApproachText.innerHTML = "We partnered with the client on a multi-phase project that first involved a review of other best-in-class loyalty programs for inspiration. We then conducted 12 in-depth interviews with the client’s customers to gather insights on loyalty program expectations. With the information gathered, we then designed and moderated two full-day ideation sessions to create key elements of the program, including the name, rewards structure, and benefits to be earned, ensuring that all output tied back to what their customers desired in a loyalty program.";
                 //result text
-                modalResultText.innerHTML = "The overall project lay the foundation for the loyalty program and was shared with the cross-functionalteam for development of the creative and design of the functionality.";
+                modalResultText.innerHTML = "The overall project lay the foundation for the loyalty program and was shared with the cross-functional team for development of the creative and design of the functionality.";
                 //img src
                 modalImg.src = workImg;
                 //img alt 
@@ -226,11 +226,11 @@ function setUpHvrBoxModal() {
                 //subtitle
                 modalSubtitle.innerHTML = "Creative / Sales Materials";
                 //challenge text
-                modalChallengeText.innerHTML = "UC Berkeley’s Haas School of Business is one of the leading business schools in the United States and the world, but competition among the top 10 schools is strong.  So, marketing materials used during all admissions-related events need to be highly effective and impactful in order to connect with prospective students.";
+                modalChallengeText.innerHTML = "To better connect with prospective students, UC Berkeley's Haas School of Business wanted to better highlight their key points of difference compared to other top 10 schools, and wanted to ensure consistency in messaging across all of their marketing materials.";
                 //apprach text
                 modalApproachText.innerHTML = "We first conducted a high-level competitive assessment, and then met with key stakeholders to get their input on the main points to include in all of the materials.  We then drafted a creative brief for alignment and developed the initial content and story.  Once done,  we visualized all of the marketing materials for a cohesive look and feel.";
                 //result text
-                modalResultText.innerHTML = "With the new marketing materials, Berkeley Haas was able to better highlight its point of difference vs. other top 10 schools, while also including additional selling points to reach a broader set of prospective students. Final impact will be seen after enrollment figures are available for the next full-time MBA class.";
+                modalResultText.innerHTML = "With the new marketing materials, Berkeley Haas was able to better highlight its point of difference vs. other top 10 schools, while also including additional selling points to reach a broader set of prospective students.";
                 //img src
                 modalImg.src = workImg;
                 //img alt 
@@ -238,15 +238,15 @@ function setUpHvrBoxModal() {
 
                 modalFooter.innerHTML = "";
             }
-            else if(workName === "Grace Health") {
+            else if(workName === "Grace Health & Wellness") {
                 //subtitle
                 modalSubtitle.innerHTML = "Brand Re-Launch";
                 //challenge text
                 modalChallengeText.innerHTML = "With roots in the cannabis industry, Grace Health & Wellness was looking to increase sales and revenue, while also building the case for future clinical trials as a a bio-tech start-up.  However, to be successful, the company needed an impactful go-to-market strategy, one that also included an overall marketing plan and key messaging.";
                 //apprach text
-                modalApproachText.innerHTML = "To arrive at a final strategy and set the stage for a brand re-launch, we first led the Founders through a series of strategic work sessions to solidify its vision and mission, align on its long-term goals, and determine key points of differentiation vs. competition.  We then redefined the brand positioning and developed a comprehensive go-to-market strategy and marketing plan for the next 12 months, before kicking off redesign efforts for the website and packaging.";
+                modalApproachText.innerHTML = "To arrive at a final strategy and set the stage for a brand re-launch, we first led the Founders through a series of strategic work sessions to solidify its vision and mission, align on its long-term goals, and determine key points of differentiation vs. competition.  We then redefined the brand positioning and developed a comprehensive go-to-market strategy and marketing plan, before kicking off redesign efforts for the website and packaging.";
                 //result text
-                modalResultText.innerHTML = "The overall project helped set the strategic direction for future growth and the new brand positioning, redesigned packaging and website will launch in 2021.";
+                modalResultText.innerHTML = "The overall project helped set the strategic direction for future growth and lay the foundation for a brand re-launch that included a new brand positioning, redesigned packaging and a new website.";
                 //img src
                 modalImg.src = workImg;
                 //img alt 
@@ -256,7 +256,7 @@ function setUpHvrBoxModal() {
             }
             else if(workName === "Silicon Valley Bank") {
                 //subtitle
-                modalSubtitle.innerHTML = "Competitive Review & Messaging";
+                modalSubtitle.innerHTML = "Competitive Review / Messaging";
                 //challenge text
                 modalChallengeText.innerHTML = "Silicon Valley Bank saw much success with its new credit card launch, but a new player entered the marketplace targeting the same end customer and soon became a key competitor.  So, the bank needed to review its existing positioning & messaging, and determine to what extent the messaging needed to be updated and refreshed.";
                 //apprach text
@@ -284,7 +284,7 @@ function setUpHvrBoxModal() {
                 //img alt 
                 modalImg.alt = workName;
 
-                modalFooter.innerHTML = "Completed by Stephanie Louie during her tenure as Senior Director Brand Strategy at Anthem Worldwide";
+                modalFooter.innerHTML = "*Completed by Stephanie Louie during her tenure as Senior Director Brand Strategy at Anthem Worldwide";
             }
             else if(workName === "Tech Start-Up") {
                 //subtitle
