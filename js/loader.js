@@ -77,7 +77,6 @@ function setUpLearnMoreModal() {
     openModal.addEventListener("click", function() {
         modal.style.display = "block";
         document.documentElement.style.overflow = "hidden"; 
-        
 
     });
     closeModal.addEventListener("click", function()  {
@@ -110,7 +109,8 @@ function setUpHvrBoxModal() {
             let workImg = el.children[0].src;
             modalTitle.innerHTML = workName;
             // do if statement for all your work elements, must match image alt attribute
-            if(workName === "Red Vines*") {
+            if(workName === "Red Vines") {
+                modalTitle.innerHTML += "<span style='font-size: 30px; position: absolute'>*</span>";
                 //subtitle
                 modalSubtitle.innerHTML = "Repositioning / Relaunch / Innovation";
                 //challenge text
@@ -270,7 +270,8 @@ function setUpHvrBoxModal() {
 
                 modalFooter.innerHTML = "";
             }
-            else if(workName === "JM Smucker*") {
+            else if(workName === "JM Smucker") {
+                modalTitle.innerHTML += "<span style='font-size: 30px; position: absolute'>*</span>";
                 //subtitle
                 modalSubtitle.innerHTML = "Innovation / Ideation";
                 //challenge text
