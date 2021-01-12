@@ -300,6 +300,8 @@ function setUpHvrBoxModal() {
                 modalImg.src = workImg;
                 //img alt 
                 modalImg.alt = workName;
+
+                modalFooter.innerHTML = "";
             }
         });
     }

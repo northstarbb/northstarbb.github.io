@@ -130,6 +130,35 @@ form {
 	}
 
 	.contact-text {
-		font-size: 26px;
+		font-size: 18px;
+	}
+}
+
+
+@media (max-width:937px) {
+
+	.contact-text {
+		font-size: 20px;
+	}
+}
+
+@media (max-width:753px) {
+
+	.contact-text {
+		font-size: 18px;
+	}
+}
+
+@media (max-width:678px) {
+
+	.contact-text {
+		font-size: 17px;
+	}
+}
+
+@media (max-width:641px) {
+
+	.contact-text {
+		font-size: 16px;
 	}
 }
