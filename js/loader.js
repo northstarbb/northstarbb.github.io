@@ -158,15 +158,15 @@ function setUpHvrBoxModal() {
 
                 modalFooter.innerHTML = "";
             }
-            else if(workName === "NortonLifeLock") {
+            else if(workName === "Finix") {
                 //subtitle
-                modalSubtitle.innerHTML = "Industry Benchmarking";
+                modalSubtitle.innerHTML = "Positioning & Messaging";
                 //challenge text
-                modalChallengeText.innerHTML = "As its portfolio of products and services continued to expand, the E-Services team realized that continuing to efficiently provide superior customer service would be difficult. Developing an omni-channel support system for its customers would be key, and one component would be the use of communities where people could help one another.";
+                modalChallengeText.innerHTML = "FINIX is a fintech company that offers everything SaaS companies need to build a world-class payments solution.  Supporting both start-ups and publicly traded companies, Finix believes that every business should have access to not only the most innovative payment technology, but also earn the bulk of the economic benefit. However, communicating this, and their new product that delivers this benefit, was difficult.";
                 //apprach text
-                modalApproachText.innerHTML = "​To arrive at the optimal design, we first reviewed the communities for five industry analogs, evaluating the overall purpose, user experience, and perks provided to members for participating in the community.  We then evaluated the current state of the client’s community to determine key implications and next steps to optimize it further.";
+                modalApproachText.innerHTML = "​To ensure a successful launch, we first needed to understand the needs / pain points of Finix’s target customer, as well as the competitive landscape and particularly what other players were communicating as their benefits across their websites and on social.  We then developed Finix’s brand positioning, complete with the brand essence and personality, and distilled that into a messaging framework that could be used for future marketing campaigns.";
                 //result text
-                modalResultText.innerHTML = "The benchmarking work provided inspiration and lay the foundation for the design of the final community.";
+                modalResultText.innerHTML = "The work lay the foundation for the official rebrand that was made public three months after the project was completed.";
                 //img src
                 modalImg.src = workImg;
                 //img alt 
@@ -315,7 +315,7 @@ setUpHvrBoxModal();
 
 $(function() {
     var e = -1;
-    slideCount = 5,
+    slideCount = 6,
         function n() {
             setTimeout(function() {
                 $("#quote" + e).animate({
