@@ -162,7 +162,7 @@ function setUpHvrBoxModal() {
                 //subtitle
                 modalSubtitle.innerHTML = "Positioning & Messaging";
                 //challenge text
-                modalChallengeText.innerHTML = "FINIX is a fintech company that offers everything SaaS companies need to build a world-class payments solution.  Supporting both start-ups and publicly traded companies, Finix believes that every business should have access to not only the most innovative payment technology, but also earn the bulk of the economic benefit. However, communicating this, and their new product that delivers this benefit, was difficult.";
+                modalChallengeText.innerHTML = "Supporting both start-ups and publicly traded companies, Finix believes that every business should have access to not only the most innovative payment technology, but also earn the bulk of the economic benefit. However, communicating this, and their new product that delivers this benefit, was difficult.";
                 //apprach text
                 modalApproachText.innerHTML = "​To ensure a successful launch, we first needed to understand the needs / pain points of Finix’s target customer, as well as the competitive landscape and particularly what other players were communicating as their benefits across their websites and on social.  We then developed Finix’s brand positioning, complete with the brand essence and personality, and distilled that into a messaging framework that could be used for future marketing campaigns.";
                 //result text
